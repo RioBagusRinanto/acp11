@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 // soal 2.1 faktor bilangan
 // func main() {
 // 	//hasil perulangan nanti print dari terkecil, maka perulangan for dari kecil dan terus bertambah
@@ -61,13 +63,13 @@ func primeNum(number int) bool {
 	return hasil
 }
 
-// func main() {
-// 	fmt.Println(primeNum(11)) //true
-// 	fmt.Println(primeNum(13)) //true
-// 	fmt.Println(primeNum(17)) //true
-// 	fmt.Println(primeNum(20)) //false
-// 	fmt.Println(primeNum(35)) //false
-// }
+func main() {
+	fmt.Println(primeNum(11)) //true
+	fmt.Println(primeNum(13)) //true
+	fmt.Println(primeNum(17)) //true
+	fmt.Println(primeNum(20)) //false
+	fmt.Println(primeNum(35)) //false
+}
 
 //---------------------------------------//
 // soal 4
