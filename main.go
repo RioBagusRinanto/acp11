@@ -73,6 +73,7 @@ func main() {
 
 //---------------------------------------//
 // soal 4
+//ini fitur B
 func palindrome(input string) bool {
 	//hasil akhir yg diharapkan (true/false) defaultnya false
 	var kembalian bool
