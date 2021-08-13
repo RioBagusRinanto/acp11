@@ -44,7 +44,7 @@ func primeNum(number int) bool {
 	//jumlah bilangan yg habis untuk membagi input
 	var kali int
 
-	//hasil akhir yg diharapkan
+	//hasil akhir
 	var hasil bool
 
 	//perulangan sebanyak jumlah input, apabila habis dibagi maka variabel kali akan bertambah
