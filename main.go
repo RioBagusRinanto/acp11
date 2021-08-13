@@ -73,28 +73,28 @@ func main() {
 
 //---------------------------------------//
 // soal 4
-// func palindrome(input string) bool {
-// 	//hasil akhir yg diharapkan (true/false) defaultnya false
-// 	var kembalian bool
+func palindrome(input string) bool {
+	//hasil akhir yg diharapkan (true/false) defaultnya false
+	var kembalian bool
 
-// 	//menampung jumlah karakter yang sama
-// 	var nilai int
+	//menampung jumlah karakter yang sama
+	var nilai int
 
-// 	//panjang dari inputan ( jumlah karakternya )
-// 	var karakter int = len(input)
+	//panjang dari inputan ( jumlah karakternya )
+	var karakter int = len(input)
 
-// 	for i := 0; i < karakter; i++ {
-// 		//misalkan karakter pertama dan terakhir sama, maka variabel nilai bertambah
-// 		if input[i] == input[karakter-(i+1)] {
-// 			nilai++
-// 		}
-// 	}
-// 	//jika jumlah karakter input dan jumlah karakter yg sama sesuai maka true
-// 	if nilai == karakter {
-// 		kembalian = true
-// 	}
-// 	return kembalian
-// }
+	for i := 0; i < karakter; i++ {
+		//misalkan karakter pertama dan terakhir sama, maka variabel nilai bertambah
+		if input[i] == input[karakter-(i+1)] {
+			nilai++
+		}
+	}
+	//jika jumlah karakter input dan jumlah karakter yg sama sesuai maka true
+	if nilai == karakter {
+		kembalian = true
+	}
+	return kembalian
+}
 
 // func main() {
 // 	fmt.Println(palindrome("civic"))
