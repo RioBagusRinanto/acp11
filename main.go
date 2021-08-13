@@ -114,7 +114,6 @@ func pangkat(base, pangkat int) int {
 	for i := 1; i < pangkat; i++ {
 		hasil = hasil * base
 	}
-	//kembalikan nilai hasil sebagai output
 	return hasil
 }
 
